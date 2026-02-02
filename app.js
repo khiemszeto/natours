@@ -16,6 +16,7 @@ const bookingRouter = require('./routes/bookingRoutes');
 const AppErrors = require('./utils/appErrors');
 const globalErrorHandler = require('./controllers/errorControllers');
 
+// Start express app
 const app = express();
 
 // SET UP THE SERVER RENDER ENGINE ( PUG )
