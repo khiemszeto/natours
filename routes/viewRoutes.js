@@ -7,16 +7,13 @@ const bookingControllers = require('../controllers/bookingControllers');
 const router = express.Router();
 
 // main page, go to the views folder and look for base.pug
-router.get(
-  '/',
-  bookingControllers.createBookingCheckout,
-  authControllers.isLoggedIn,
-  viewControllers.getOverview,
-);
+router.get('/', authControllers.isLoggedIn, viewControllers.getOverview);
+
 router.get('/tour/:slug', authControllers.isLoggedIn, viewControllers.getTour);
 router.get('/login', authControllers.isLoggedIn, viewControllers.getLoginForm);
 router.get('/signup', viewControllers.getSignupForm);
 router.get('/me', authControllers.protect, viewControllers.getAccount);
+
 router.get('/my-tours', authControllers.protect, viewControllers.getMyTours);
 
 router.post(
