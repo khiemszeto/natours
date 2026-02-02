@@ -10,13 +10,14 @@
     "start:dev": "nodemon server.js",
     "start:prod": "NODE_ENV=production nodemon server.js",
     "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js --public-url /js",
-    "build:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
+    "build:js": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js --public-url /js"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@stripe/stripe-js": "^8.7.0",
     "axios": "^1.13.4",
     "bcryptjs": "^3.0.3",
+    "compression": "^1.8.1",
     "cookie-parser": "^1.4.7",
     "dotenv": "^17.2.3",
     "express": "^4.22.1",
