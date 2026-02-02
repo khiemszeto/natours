@@ -6,6 +6,8 @@ const bookingControllers = require('../controllers/bookingControllers');
 
 const router = express.Router();
 
+router.use(viewControllers.alerts);
+
 // main page, go to the views folder and look for base.pug
 router.get('/', authControllers.isLoggedIn, viewControllers.getOverview);
 
