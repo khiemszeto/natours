@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "5c8a34ed14eb5c17645c9108",
+    "review": "The experience was smooth and well organized, with beautiful scenery and excellent overall service.",
+    "rating": 5,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a355b14eb5c17645c9109",
+    "review": "Everything was well planned, the guide was knowledgeable, and the trip felt comfortable throughout.",
+    "rating": 4,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a359914eb5c17645c910a",
+    "review": "An enjoyable tour with great views, friendly people, and a relaxed atmosphere.",
+    "rating": 5,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a35b614eb5c17645c910b",
+    "review": "The trip was well structured and met my expectations, though there is room for small improvements.",
+    "rating": 4,
+    "user": "5c8a1dfa2f8fb814b56fa181",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a364c14eb5c17645c910c",
+    "review": "Fantastic experience overall, with great planning and memorable locations.",
+    "rating": 5,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a368c14eb5c17645c910d",
+    "review": "The tour felt premium and well paced, making it easy to enjoy every moment.",
+    "rating": 5,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a36a014eb5c17645c910e",
+    "review": "A relaxing and enjoyable journey with friendly guides and beautiful destinations.",
+    "rating": 5,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c2970"
+  },
+  {
+    "_id": "5c8a36b714eb5c17645c910f",
+    "review": "Very good experience overall, though some parts could have been better organized.",
+    "rating": 4,
+    "user": "5c8a1e1a2f8fb814b56fa182",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a379a14eb5c17645c9110",
+    "review": "Amazing value for the price, with great locations and helpful staff.",
+    "rating": 5,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a37b114eb5c17645c9111",
+    "review": "The tour was enjoyable and well managed, making it easy to relax and have fun.",
+    "rating": 4,
+    "user": "5c8a24402f8fb814b56fa190",
+    "tour": "5c88fa8cf4afda39709c295a"
+  }
+]
