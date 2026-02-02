@@ -20,6 +20,8 @@ const globalErrorHandler = require('./controllers/errorControllers');
 // Start express app
 const app = express();
 
+app.enable('trust proxy');
+
 // SET UP THE SERVER RENDER ENGINE ( PUG )
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
