@@ -71,6 +71,7 @@ app.use(
 
       connectSrc: [
         "'self'",
+        'https://natours-ghnn.onrender.com',
         'ws://127.0.0.1:*', // ✅ Parcel HMR
         'http://127.0.0.1:*',
         'https://api.mapbox.com',
