@@ -5,7 +5,7 @@ const AppErrors = require('../utils/appErrors');
 const catchAysnc = require('../utils/catchAsync');
 
 exports.alert = (req, res, next) => {
-  const alert = req.query;
+  const { alert } = req.query;
 
   if (alert === 'booking')
     res.locals.alert =
